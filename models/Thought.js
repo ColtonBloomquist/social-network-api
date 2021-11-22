@@ -7,6 +7,11 @@ const reactionSchema = new Schema(
       type: Schema.Types.ObjectId,
       default: () => new Types.ObjectId(),
     },
+
+    username: {
+      type: String,
+      required: true,
+    },
     reactionBody: {
       type: String,
       required: true,
@@ -15,7 +20,7 @@ const reactionSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      //get: (createdAtVal) => dateFormat(createdAtVal),
+      get: (createdAtVal) => dateFormat(createdAtVal),
     },
   },
   {
