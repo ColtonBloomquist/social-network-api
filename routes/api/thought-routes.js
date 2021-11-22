@@ -21,6 +21,6 @@ router
 //TODO: add route for adding and deleting reactions(remember to include new functions up in requirements)
 
 router.route("/:thoughtId/reactions").post(addReaction);
-router.route("/:thoughtId/reactions/reactionId").delete(deleteReaction);
+router.route("/:thoughtId/reactions/:reactionId").delete(deleteReaction);
 
 module.exports = router;
