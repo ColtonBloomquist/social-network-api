@@ -39,8 +39,6 @@
   # Questions
   If you have questions, please reach out to me at coltonbloomquist@yahoo.com or visit my github at github.com/coltonbloomquist
   
-  # Link to Deployed Webpage
-  https://tech-blog-challenge-14.herokuapp.com/
   
   # Video Walkthrough
    https://watch.screencastify.com/v/bbHFhMVz8Sdvk2FgiwFB
